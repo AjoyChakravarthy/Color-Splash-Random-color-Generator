@@ -16,6 +16,6 @@ document.querySelector("button").addEventListener("click", function(){
     var colorHex = generateRandomColorHex();
     document.body.style.backgroundColor=colorHex;
     
-    document.querySelector("button").textContent = "COLOR : #"+colorHex;
+    document.querySelector("button").textContent = "COLOR : "+colorHex;
 
 })
